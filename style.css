@@ -126,3 +126,46 @@ nav h1{
     color: #FF900E;
     
 };
+
+/* love and enjoy */
+.love-enjoy-cards h1{
+    font-weight: 700;
+    font-size: 20px;
+}
+.love-enjoy-cards p{
+    font-size: 16px;
+    color: #727272;
+}
+.love-enjoy-cards div{
+    background-color: beige;
+    box-shadow: 5px 5px 15px gray;
+    padding: 30px;
+    margin: 10px 0;
+}
+.love-enjoy{
+    margin-top: 60px ;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card{
+    background-color: #FF900E;
+    color: white;
+    /* padding: 45px 42px; */
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    top: -100px;
+    right: 100px;
+}
+.card h1{
+    font-size: 65px;
+    font-weight: bold;
+}
+.card p{
+    font-size: 25px;
+    font-weight: 700;
+}
+/* .love-enjoy-img{
+    position: absolute;
+} */
