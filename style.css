@@ -19,7 +19,7 @@ body{
 }
 .btn-primary{
     font-weight: 800;
-    font-size: 20px;
+    font-size: 1.5rem;
     background-color: #FF900E;
     border-radius: 8px;
     color: #FFFFFF;
@@ -99,7 +99,18 @@ nav h1{
     .navbar, .hero{
         padding: 0 10px;
     }
-    .navbar h1, .navbar a{
-        text-align: center;
-    }
+}
+/* main-hero section */
+.main-hero-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.main-hero{
+    gap: 80px;
+    margin-top: 40px ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
 }
